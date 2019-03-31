@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="lapfund" uuid="547b08d0-101a-4958-950f-aee18530ed19">
+      <database-info product="Oracle" version="Oracle Database 12c Standard Edition Release 12.2.0.1.0 - 64bit Production" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>fm</user-name>
+      <introspection-schemas>*:FM</introspection-schemas>
+    </data-source>
+    <data-source name="lapfundsqlserver" uuid="fa8ffb39-398b-4bb1-bc78-660cd01f6806">
+      <database-info product="Microsoft SQL Server" version="14.00.2002" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 6.4 for SQL Server" driver-version="6.4.0.0">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <domain-auth>true</domain-auth>
+      <introspection-schemas>master:dbo</introspection-schemas>
+    </data-source>
+    <data-source name="fundmaster@localhost" uuid="f2a7dc03-d623-4afd-8264-4dc128327dc3">
+      <database-info product="Microsoft SQL Server" version="14.00.2002" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 6.4 for SQL Server" driver-version="6.4.0.0">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <domain-auth>true</domain-auth>
+      <introspection-schemas>FundMaster:dbo</introspection-schemas>
+    </data-source>
+    <data-source name="lapfund_live" uuid="913e9b98-46ae-426a-a74e-7073bb9080fa">
+      <database-info product="Oracle" version="Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production&#10;With the Partitioning, OLAP, Advanced Analytics and Real Application Testing options" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>fm</user-name>
+      <introspection-schemas>*:FM</introspection-schemas>
+    </data-source>
+  </component>
+</project>
